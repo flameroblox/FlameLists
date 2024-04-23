@@ -8,10 +8,14 @@ Want to implement the FlameBlacklist System?
 ```lua
 --[[FlameBlacklistLoaderScript]]
 
-local barred = loadstring(game:HttpGet("https://raw.githubusercontent.com/flameroblox/FlameLists/main/blacklist4flame.lua"))()
+local blacklist.enabled = true -- set to false to bypass.
+
+if local blacklist.enabled = true then
+local barred = loadstring(game:HttpGet("https://raw.githubusercontent.com/flameroblox/SmartBot/main/Backend/barred.lua"))()
 firstoperation()
 wait(5)
-error("Ran Flame Blacklist Sys // Made By FlameTeam with <33")
+error("FlameUniversalBlacklist has successfully been ran. Kicked the user running the script if they were blacklisted.")
+end
 
 -- MADE BY FLAMETEAM WITH <3
 ```
