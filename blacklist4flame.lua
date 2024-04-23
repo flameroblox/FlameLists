@@ -7,10 +7,15 @@ function firstoperation()
 
     for _, id in ipairs(barred) do
         if userId == id then
-            player:Kick("You are blacklisted from SmartBot. Please contact support to appeal.")
+            player:Kick("You are blacklisted from FlameScripts and the scripts using this blacklist system. | CONTACT FLAMETEAM OR A CONTRIBUTOR TO APPEAL.")
             break
         end
     end
 end
 
 return barred
+
+--[[
+BLACKLISTED USERS LIST:
+NAME | ID
+]]
