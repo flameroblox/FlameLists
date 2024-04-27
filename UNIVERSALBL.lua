@@ -7,7 +7,7 @@ function firstoperation()
 
     for _, id in ipairs(barred) do
         if userId == id then
-            player:Kick("You are blacklisted from FlameScripts and the scripts using this blacklist system. | CONTACT FLAMETEAM OR A CONTRIBUTOR TO APPEAL.")
+            player:Kick("You are blacklisted from this script. || Prism UserID Ban System || CONTACT PRISMTEAM TO APPEAL.")
             break
         end
     end
