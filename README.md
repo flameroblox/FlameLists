@@ -1,22 +1,44 @@
-# FlameLists
-The WL and BL for FlameProducts. (UNIVERSAL) and if you want to implement our blacklisted users you can! With our tutorial, you can do just that.
+# Prism APIS
+contains any module made by PrismTeam for other devs to use.
 
 # Tutorial4Blacklist:
 
-Want to implement the FlameBlacklist System?
-
 ```lua
---[[FlameBlacklistLoaderScript]]
+--[[
+
+ ██▓███   ██▀███   ██▓  ██████  ███▄ ▄███▓                             
+▓██░  ██▒▓██ ▒ ██▒▓██▒▒██    ▒ ▓██▒▀█▀ ██▒                             
+▓██░ ██▓▒▓██ ░▄█ ▒▒██▒░ ▓██▄   ▓██    ▓██░                             
+▒██▄█▓▒ ▒▒██▀▀█▄  ░██░  ▒   ██▒▒██    ▒██                              
+▒██▒ ░  ░░██▓ ▒██▒░██░▒██████▒▒▒██▒   ░██▒                             
+▒▓▒░ ░  ░░ ▒▓ ░▒▓░░▓  ▒ ▒▓▒ ▒ ░░ ▒░   ░  ░                             
+░▒ ░       ░▒ ░ ▒░ ▒ ░░ ░▒  ░ ░░  ░      ░                             
+░░         ░░   ░  ▒ ░░  ░  ░  ░      ░                                
+            ░      ░        ░         ░                                
+                                                                       
+ ▄▄▄▄    ██▓    ▄▄▄       ▄████▄   ██ ▄█▀ ██▓     ██▓  ██████ ▄▄▄█████▓
+▓█████▄ ▓██▒   ▒████▄    ▒██▀ ▀█   ██▄█▒ ▓██▒    ▓██▒▒██    ▒ ▓  ██▒ ▓▒
+▒██▒ ▄██▒██░   ▒██  ▀█▄  ▒▓█    ▄ ▓███▄░ ▒██░    ▒██▒░ ▓██▄   ▒ ▓██░ ▒░
+▒██░█▀  ▒██░   ░██▄▄▄▄██ ▒▓▓▄ ▄██▒▓██ █▄ ▒██░    ░██░  ▒   ██▒░ ▓██▓ ░ 
+░▓█  ▀█▓░██████▒▓█   ▓██▒▒ ▓███▀ ░▒██▒ █▄░██████▒░██░▒██████▒▒  ▒██▒ ░ 
+░▒▓███▀▒░ ▒░▓  ░▒▒   ▓▒█░░ ░▒ ▒  ░▒ ▒▒ ▓▒░ ▒░▓  ░░▓  ▒ ▒▓▒ ▒ ░  ▒ ░░   
+▒░▒   ░ ░ ░ ▒  ░ ▒   ▒▒ ░  ░  ▒   ░ ░▒ ▒░░ ░ ▒  ░ ▒ ░░ ░▒  ░ ░    ░    
+ ░    ░   ░ ░    ░   ▒   ░        ░ ░░ ░   ░ ░    ▒ ░░  ░  ░    ░      
+ ░          ░  ░     ░  ░░ ░      ░  ░       ░  ░ ░        ░           
+      ░                  ░                                             
+
+v1.2 -- 27.4.24
+]]
 
 local blacklist.enabled = true -- set to false to bypass.
 
 if local blacklist.enabled = true then
-local barred = loadstring(game:HttpGet("https://raw.githubusercontent.com/flameroblox/SmartBot/main/Backend/barred.lua"))()
+local barred = loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionlawl/PrismAPIs/main/UNIVERSALBL.lua"))()
 firstoperation()
 wait(5)
-error("FlameUniversalBlacklist has successfully been ran. Kicked the user running the script if they were blacklisted.")
+warn("PrismBlacklistAPI initiated..")
 end
 
--- MADE BY FLAMETEAM WITH <3
+-- PrismTeam 2024
 ```
 Insert above script in the top of your very code for it to work and just let magic do its work.
